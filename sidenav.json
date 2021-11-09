@@ -1,0 +1,84 @@
+[
+    {
+        "label": "GENERAL",
+        "children": [
+            {
+                "label": "Dashboard",
+                "to": "/general/dashboard",
+                "path": "/pages/general/dashboard.md"
+            },
+            {
+                "label": "Customers",
+                "to": "/general/customers",
+                "path": "/pages/general/customers.md"
+            }
+        ]
+    },
+    {
+        "label": "ADMINISTRATION",
+        "children": [
+            {
+                "label": "Team Settings",
+                "to": "/admin/team-setting",
+                "path": "/pages/admin/team-setting.md"
+            },
+            {
+                "label": "Manage Your Team",
+                "to": "/admin/manage-your-team",
+                "path": "/pages/admin/manage-your-team.md",
+                "children": [
+                    {
+                        "label": "Members",
+                        "to": "/admin/team-setting/members",
+                        "path": "/pages/admin/team-setting/members.md"
+                    },
+                    {
+                        "label": "Plugins",
+                        "to": "/admin/team-setting/plugins",
+                        "path": "/pages/admin/team-setting/plugins.md"
+                    },
+                    {
+                        "label": "Add a member",
+                        "to": "/admin/team-setting/add-a-member",
+                        "path": "/pages/admin/team-setting/add-a-member.md"
+                    }
+                ]
+            },
+            {
+                "label": "Invitations",
+                "to": "/admin/invitations",
+                "path": "/pages/admin/invitations.md"
+            },
+            {
+                "label": "Cloud Storage Environment Settings",
+                "to": "/admin/cloud-storage-environment-settings",
+                "path": "/pages/admin/cloud-storage-environment-settings.md"
+            },
+            {
+                "label": "Authentication",
+                "to": "/admin/authentication",
+                "path": "/pages/admin/authentication.md"
+            }
+        ]
+    },
+    {
+        "label": "TRANSACTIONS",
+        "children": [
+            {
+                "label": "Payments",
+                "to": "/transactions/payments",
+                "path": "/pages/transactions/payments.md"
+            },
+            {
+                "label": "Transfers",
+                "to": "/transactions/transfers",
+                "path": "/pages/transactions/transfers.md"
+            },
+            {
+                "label": "Balance",
+                "to": "/transactions/balance",
+                "path": "/pages/transactions/balance.md"
+            }
+        ]
+    }
+]
